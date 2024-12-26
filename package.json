@@ -1,0 +1,26 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "TEST",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalladammigarilokesh/web-crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nalladammigarilokesh/web-crawler/issues"
+  },
+  "homepage": "https://github.com/nalladammigarilokesh/web-crawler#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^23.11.1"
+  }
+}
