@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/search', async (req, res) => {
-    const { query } = req?.query;
+    const { query } = req?.query; 
     if (!query) return res.status(400).json({ error: "Query parameter is required" });
 
     try {

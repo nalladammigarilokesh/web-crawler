@@ -13,7 +13,6 @@ function App() {
             const dataUrl =  data.links.filter(link => !link.includes("google.com/"));
             let uniqueUrls = dataUrl.filter((item, index) => dataUrl.indexOf(item)===index);
             setResults(uniqueUrls);
-            console.log(uniqueUrls.length,"lokesh")
         } catch (error) {
             console.error("Error fetching search results:", error);
         }
